@@ -1,6 +1,6 @@
 body
 {
-	  background-color: #45ADA8;
+	  background-color: #FFFFFF
 }
 div{
 	
@@ -8,13 +8,24 @@ div{
 h1
 {
 
-  font-family:Arial, Helvetica, sans-serif;
+font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+p
+{
+
+font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 #intro2.P
 {
 
   font-family:Arial, Helvetica, sans-serif;
    color: black;
+}
+h1
+{
+
+  font-family:Arial, Helvetica, sans-serif;
+   color: Blue;
 }
 #intro{
 	width: 25%;
@@ -24,8 +35,34 @@ h1
 	 position: absolute;
   Top:  230px; 
   left: 50px;
-  background-color: #E5FCC2;
-  font-family:Arial, Helvetica, sans-serif;
+  background-color: #F1C40F;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+#introcss{
+	width: 150%;
+	margin: 2em;
+	padding: 1em;
+	font-size: 16px;
+	 position: absolute;  
+  background-color: #F1C40F;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+#introx{
+	width: 25%;
+	margin: 2em;
+	padding: 1em;
+	font-size: 16px;
+	 position: absolute;
+  Top:  500px; 
+  left: 500px;
+  background-color: #F1C40F;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+#contador{
+
+	 position: absolute;
+  top:  800px; 
+  left: 800px;
 }
 #intro2{
 	width: 25%;
@@ -38,13 +75,102 @@ h1
 
   color: black;
 }
+#intro3{
+	width: 35%;
+	margin: 2em;
+	padding: 1em;
+	font-size: 16px;
+	 position: absolute;
+  Top:  230px; 
+  left: 50px;
+  background-color: #E5FCC2;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#about_us{
+	
+	margin: 2em;
+	padding: 1em;
+	font-size: 16px;
+	
+
+  
+  font-family:comic sans ms;
+
+}
+#introgit{
+	width: 50%;
+	margin: 2em;
+	padding: 1em;
+	font-size: 16px;
+	 position: absolute;
+top:550px;  
+  left: 500px;
+  background-color: #E5FCC2;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
 #img1{
 	width: 25%;
 	margin: 2em;
 	padding: 1em;
 	 position: absolute;
-  Top:  220px; 
+  Top:  5px; 
   left: 500px;
+  
+}
+#imgc{
+	width: 25%;
+	margin: 2em;
+	padding: 1em;
+	 position: absolute;
+  Top:  50px; 
+  left: 700px;
+  
+}
+#logou{
+	width: 25%;
+	margin: 2em;
+	padding: 1em;
+	 position: absolute;
+  Top:  5px; 
+ 
+  
+}
+#img2{
+	width: 25%;
+	margin: 2em;
+	padding: 1em;
+	 position: absolute;
+  Top:  400px; 
+  left: 500px;
+  
+}
+#imgi{
+	width: 25%;
+	margin: 2em;
+	padding: 1em;
+	 position: absolute;  
+  left: 500px;
+  
+}
+#imggit{
+	width: 30%;
+	margin: 2em;
+	padding: 1em;
+	 position: absolute;
+  Top:  200px; 
+  left: 700px;
+  
+}
+#imgitu{
+	width: 30%;
+	margin: 2em;
+	padding: 1em;
+	 position: absolute;
+  Top:  200px; 
+  left: 700px;
   
 }
 #video1{
@@ -52,7 +178,7 @@ h1
 	margin: 2em;
 	padding: 1em;
 	 position: absolute;
-  Top:  550px; 
+  Top:  580px; 
   left: 40px;
   
 }
@@ -73,15 +199,15 @@ h1
 			}
 			
 		.nav li a {
-		background-color: #E5FCC2;
-		color:#000;
+		background-color: blue;
+		color:#fff;
 		text-decoration:none;
 		padding:10px 12px;
 		display:block;
 		}
 			
 		.nav li a:hover {
-		background-color: #E5FCC2F;
+		background-color: blue;
 		}
 			
 		.nav li ul {
@@ -111,4 +237,5 @@ h1
 		
 	}
 			
+
 	
